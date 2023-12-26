@@ -1,0 +1,120 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  height: 120vh;
+  width: 70%;
+  margin: 40px;
+  padding-top: 50px;
+}
+.appointment-card-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 90vh;
+  width: 85%;
+  margin: 40px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.heading {
+  color: #171f46;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.appointment-form-and-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.title-label {
+  color: #b5b7c4;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.title {
+  padding: 6px;
+}
+.date-label {
+  color: #b5b7c4;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.date {
+  padding: 6px;
+}
+.btn {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-size: 8px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding: 6px;
+  border: transparent;
+  width: 20%;
+  border-radius: 5px;
+}
+.imag-url {
+  height: 34vh;
+  width: 27vw;
+  margin-left: 50px;
+  align-self: center;
+}
+.hr {
+  font-size: 38px;
+}
+.bg-appointment-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointment-paragraph {
+  color: #171f46;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.starred-button {
+  color: #8b5cf6;
+  background-color: transparent;
+  border: #9897f0 1px solid;
+  border-radius: 6px;
+  padding: 6px;
+  margin-right: 10px;
+  height: 10%;
+  width: 13%;
+}
+.ul-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.filter-style {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding-left: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 16px;
+  border: none;
+  outline: none;
+}
+
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}

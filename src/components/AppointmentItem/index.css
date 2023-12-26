@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.li-container {
+  list-style-type: none;
+}
+.appointment-item-container {
+  height: 16vh;
+  width: 17vw;
+  border: #b5b7c4 1px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  padding-left: 10px;
+}
+.title-start-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-name {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #171f46;
+}
+.star-image {
+  height: 26px;
+}
+.date-paragraph {
+  color: #b5b7c4;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.start-btn {
+  background-color: transparent;
+  border: transparent;
+}
